@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Avenir-Book';
+  src: local('Avenir-Book'), url(./assets/fonts/Avenir-Book.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Avenir-Book';
+}
+
+
+.App {
+    background-color: #caa8ff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+  width: 90vw;
+  margin: auto;
+  position: relative;
+  top: 5vh;
+  margin-bottom: 5vh;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.active {
+  color: #222;
+}
+
+.footer p {
+  color: #FFF;
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%; 
+}
+
+.navbar {
+    height: 65px;
+    margin: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  right: 0.5rem;
+  list-style-type: none;
+  position: relative;
+}
+.navbar li {
+  margin: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1.5vh;
+    top: 1.5vh;
+  }
+
+  .navbar {
+      height: 55px;
+
+  }
+
+  .navbar ul {
+    right: 0;
+  }
+  .navbar li {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+
+  }
+}

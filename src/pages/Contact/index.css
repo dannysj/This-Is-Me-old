@@ -1,0 +1,40 @@
+.contents {
+  align-items: center;
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+  padding-top: 5%;
+}
+
+
+.buttonplace {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons > * {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.contents > p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .buttons {
+    justify-content: space-around;
+    margin: auto;
+  }
+  .buttons > * {
+    margin: auto;
+  }
+}

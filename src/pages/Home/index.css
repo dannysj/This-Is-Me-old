@@ -1,0 +1,11 @@
+.content-test {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding: 5% 0% 5% 0%;
+
+  width: auto;
+  margin: auto;
+}

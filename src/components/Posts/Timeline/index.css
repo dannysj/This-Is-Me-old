@@ -1,0 +1,22 @@
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #B086F3;
+}
+
+.line {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 1px;
+  position: absolute;
+  display: inline-block;
+  height: 80%;
+  background-color: #aaa;
+  border-radius: 0.5px;
+}

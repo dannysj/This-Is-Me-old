@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.date {
+  margin-top: 30px;
+  font-size: 11px;
+  color: #aaa;
+}
+
+
+.title {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-left: 0px;
+}
+
+.title p {
+  margin: auto;
+}
+
+.summary {
+  position: relative;
+  padding: 10px;
+  width: 60%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.psummary {
+  font-size: 16px;
+  margin-top: 2em;
+
+}
+
+.phone {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .summary {
+    width: auto;
+  }
+}
